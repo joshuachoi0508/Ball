@@ -21,3 +21,21 @@ body {
 #counter {
   font-size: 18px;
 }
+
+#reset-button {
+  background: rgb(255, 199, 44);
+  font-size: 14px;
+  font-weight: bold;
+  width: 125px;
+  height: 46px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  outline-style: none;
+}
+
+#reset-button:hover {
+  background: black;
+  color: white;
+  transition: all .3s;
+}
