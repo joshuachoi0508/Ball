@@ -7,7 +7,7 @@ if (!document.cookie) {
 
   ball.style.background = color;
   document.cookie = color + ";1";
-  counter.innerText = 1;
+  counter.innerText = "Count: 1";
 } else {
   const colorAndCount = document.cookie.split(";");
 

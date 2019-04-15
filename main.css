@@ -3,6 +3,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'poppins';
 }
 
 #ball {
@@ -16,4 +17,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#counter {
+  font-size: 18px;
 }
