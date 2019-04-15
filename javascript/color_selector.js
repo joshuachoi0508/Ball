@@ -1,5 +1,9 @@
-const colors = ["red", "blue"]
-const color = colors[Math.floor(Math.random() * 2)];
+if (!document.cookie) {
+  const colors = ["red", "blue"]
+  const color = colors[Math.floor(Math.random() * 2)];
+  
+  const ball = document.getElementById("ball");
+  ball.style.background = color;
 
-const ball = document.getElementById("ball");
-ball.style.background = color;
+  document.cookie = `${color};1`;
+}
