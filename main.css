@@ -1,0 +1,13 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ball {
+  width: 100px;
+  height: 100px;
+  background: black;
+  border-radius: 50%;
+}
