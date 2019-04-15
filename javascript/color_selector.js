@@ -13,5 +13,5 @@ if (!document.cookie) {
   debugger;
   ball.style.background = colorAndCount[0];
   document.cookie = colorAndCount[0] + "," + String(Number(colorAndCount[1]) + 1);
-  counter.innerText = `Count: ${colorAndCount[0] + "," + String(Number(colorAndCount[1]) + 1)}`;
+  counter.innerText = "Count: " + String(Number(colorAndCount[1]) + 1);
 }
