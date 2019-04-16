@@ -46,6 +46,7 @@ body {
   border: none;
   cursor: pointer;
   outline-style: none;
+  transition: all .3s;
 }
 
 #reset-button:hover {
